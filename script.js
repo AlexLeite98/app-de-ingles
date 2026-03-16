@@ -1,5 +1,5 @@
 function iniciar(){
-	palavra.innerHTML = worlds[0];
+	document.getElementById("palavra").innerHTML = worlds[0];
 }
 
 function confirmar(){
