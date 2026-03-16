@@ -10,8 +10,4 @@ function resposta(){
 	
 }
 
-let worlds = [
-	'um',
-	'dois',
-	'três'
-	];
+let worlds = ['um','dois','três'];
