@@ -43,11 +43,11 @@ const inimigo1 = {
 
 //Iniciar a batalha
 function iniciar(){
-	hpInimigo.innerHTML = inimigo1.Hp;
-	inimigo.innerHTML = inimigo1.Nome;
+	hpInimigo.innerHTML = `HP: ${inimigo1.Hp}`;
+	inimigo.innerHTML = `${inimigo1.Nome}`;
 	
-	hpPlayer.innerHTML = alex.Hp;
-	player.innerHTML = alex.Nome;
+	hpPlayer.innerHTML = `HP: ${alex.Hp}`;
+	player.innerHTML = `${(alex.Nome)}`;
 }
 
 //Aqui fica as funçõs de ataque.
@@ -56,11 +56,11 @@ function atkAlex(){
 	
 	if(atk==20){
 		atk += alex.atributos.For;
-		teste.innerHTML = `${atk+d8()} Crítico`
+		teste.innerHTML = `${atk+d8()} Crítico`;
 		
 	}else{
 		atk += alex.atributos.For;
-		teste.innerHTML = atk
+		teste.innerHTML = atk;
 	}
 }
 
