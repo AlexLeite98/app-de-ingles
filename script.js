@@ -27,3 +27,12 @@ const inimigo1 = {
 };
 
 //Aqui fica as funçõs de ataque e defesa.
+function atkAlex(){
+	let atk = d20;
+	
+	if(atk==20){
+		return atk+d8
+	}else{
+		return atk
+	}
+}
