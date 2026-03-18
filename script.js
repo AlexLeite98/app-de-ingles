@@ -36,3 +36,5 @@ function atkAlex(){
 		return atk
 	}
 }
+
+console.log(atkAlex())
