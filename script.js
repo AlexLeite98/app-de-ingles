@@ -57,11 +57,11 @@ function atkInimigo1(){
 	let atk2 = d6();
 	
 	if(atk2==6){
-		atk2 += inimigo1.atk;
+		
 		teste2.innerHTML = `${atk2+d8()} Crítico`
 		
 	}else{
-		atk2 += inimigo1.atk;
+		
 		teste2.innerHTML = atk2
 	}
 }
