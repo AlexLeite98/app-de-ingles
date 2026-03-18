@@ -65,3 +65,5 @@ function atkInimigo1(){
 		teste2.innerHTML = atk
 	}
 }
+
+
