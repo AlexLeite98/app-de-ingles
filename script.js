@@ -1,5 +1,7 @@
 let hpInimigo = document.getElementById("hpInimigo");
 let inimigo = document.getElementById("inimigo");
+let hpPlayer = document.getElementById("hpPlayer");
+let player = document.getElementById("player");
 
 // Aqui fica as funções de dados que serão reutilizadas com frequencia.
 function d20(){
