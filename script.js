@@ -37,27 +37,3 @@ const inimigo1 = {
 	Atk: 3,
 	Def: 12
 }
-
-hpInimigo.innerHTML = inimigo1.Hp;
-inimigo.innerHTML = inimigo1.Nome;
-
-hpPlayer.innerHTML = player1.Hp;
-player.innerHTML = player1.Nome;
-
-
-function ataque(){
-	let pAtk = d20();
-	let iAtk = d12();
-	
-	inimigo1.Hp -= pAtk;
-	player1.Hp -=  iAtk;
-	
-	hpInimigo.innerHTML = inimigo1.Hp;
-	hpPlayer.innerHTML = player1.Hp;
-	
-	legInimigo.innerHTML = `Deu ${iAtk} de dano!`;
-	legPlayer.innerHTML = `Deu ${pAtk} de dano!`
-	
-};
-
-
