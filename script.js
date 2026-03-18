@@ -1,3 +1,4 @@
+// Aqui fica as funções que serão reutilizadas com frequencia.
 
 // Aqui ficará os dados dos personagens.
 const personagem1 = {
