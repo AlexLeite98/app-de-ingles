@@ -13,5 +13,5 @@ function iniciar(){
 let resposta = document.getElementById("resposta").value;
 
 function confirmar(){
-	if(worlds[i]==)
+	if(resposta==)
 }
