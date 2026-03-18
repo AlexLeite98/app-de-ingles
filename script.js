@@ -5,8 +5,6 @@ const d8 = Math.floor(Math.random()*(8-1 + 1)+1);
 const d6 = Math.floor(Math.random()*(6-1 + 1)+1);
 const d4 = Math.floor(Math.random()*(4-1 + 1)+1);
 
-console.log(d20, d12, d8, d6, d4)
-
 // Aqui ficará os dados dos personagens.
 const personagem1 = {
 	Nome: "Alex",
