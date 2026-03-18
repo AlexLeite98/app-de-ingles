@@ -1,4 +1,8 @@
-let worlds = ['um','dois','três'];
+let worlds = [
+	'um',
+	'dois',
+	'três'
+	];
 let i = 0;
 
 function iniciar(){
