@@ -25,4 +25,3 @@ const inimigo1 = {
 	Def: 10,
 	Atk: 3
 };
-console.log(inimigo1.Nome)
