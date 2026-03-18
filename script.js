@@ -42,7 +42,7 @@ const inimigo1 = {
 function atkAlex(){
 	let atk = d20();
 	if(atk==20){
-		teste.innerHTML = `Ataque Crítico${atk+d8}`
+		teste.innerHTML = `Ataque Crítico${atk+d8()}`
 	}else{
 		teste.innerHTML = atk
 	}
