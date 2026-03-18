@@ -54,14 +54,14 @@ function atkAlex(){
 }
 
 function atkInimigo1(){
-	let atk2 = d6();
+	let atk = d6();
 	
-	if(atk2==6){
-		
-		teste2.innerHTML = `${atk2+d8()} Crítico`
+	if(atk==6){
+		atk += inimigo1.Atk;
+		teste2.innerHTML = `${atk+d8()} Crítico`
 		
 	}else{
-		
-		teste2.innerHTML = atk2
+		atk += inimigo1.Atk;
+		teste2.innerHTML = atk
 	}
 }
