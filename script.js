@@ -37,4 +37,3 @@ function atkAlex(){
 	}
 }
 
-console.log(atkAlex())
