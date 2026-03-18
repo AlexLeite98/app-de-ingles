@@ -43,7 +43,11 @@ const inimigo1 = {
 
 //Iniciar a batalha
 function iniciar(){
+	hpInimigo.innerHTML = inimigo1.Hp;
+	inimigo.innerHTML = inimigo1.Nome;
 	
+	hpPlayer.innerHTML = alex.Hp;
+	hpPlayer.innerHTML = alex.Nome;
 }
 
 //Aqui fica as funçõs de ataque.
