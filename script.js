@@ -55,5 +55,6 @@ function ataque(){
 	hpInimigo.innerHTML = inimigo1.Hp;
 	hpPlayer.innerHTML = player1.Hp;
 	
-	legInimigo.innerHTML = 
-}
+	legInimigo.innerHTML = `Deu ${iAtk} de dano!`;
+	legPlayer.innerHTML = `Deu ${pAtk} de dano!`
+};
