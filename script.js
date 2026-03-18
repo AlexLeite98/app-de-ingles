@@ -1,7 +1,11 @@
 let hpInimigo = document.getElementById("hpInimigo");
 let inimigo = document.getElementById("inimigo");
+
 let hpPlayer = document.getElementById("hpPlayer");
 let player = document.getElementById("player");
+
+let legInimigo = document.getElementById("legInimigo");
+let legPlayer = document.getElementById("legPlayer");
 
 // Aqui fica as funções de dados que serão reutilizadas com frequencia.
 function d20(){
@@ -47,4 +51,6 @@ function ataque(){
 	
 	hpInimigo.innerHTML = inimigo1.Hp;
 	hpPlayer.innerHTML = player1.Hp;
+	
+	
 }
