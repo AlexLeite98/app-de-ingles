@@ -34,4 +34,8 @@ const inimigo1 = {
 	Def: 12
 }
 
-
+function ataque(){
+	inimigo1.Hp -= (inimigo1.Def -(player1.Atk + d20()));
+	player1.Hp -= (player1.Def -(inimigo1.Atk + d12()));
+	
+}
