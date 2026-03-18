@@ -1,7 +1,7 @@
 let worlds = [
-	'um',
-	'dois',
-	'três'
+	'one',
+	'two',
+	'tree'
 	];
 let i = 0;
 
