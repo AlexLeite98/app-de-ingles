@@ -33,6 +33,7 @@ const alex = {
 
 const inimigo1 = {
 	Nome: "Lobo Corrompido",
+	Hp: 30,
 	Def: 10,
 	Atk: 3
 };
@@ -51,3 +52,15 @@ function atkAlex(){
 	}
 }
 
+function atkInimigo1(){
+	let atk = d20();
+	
+	if(atk==20){
+		atk += alex.atributos.For;
+		teste.innerHTML = `${atk+d8()} Crítico`
+		
+	}else{
+		atk += alex.atributos.For;
+		teste.innerHTML = atk
+	}
+}
