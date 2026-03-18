@@ -57,4 +57,7 @@ function ataque(){
 	
 	legInimigo.innerHTML = `Deu ${iAtk} de dano!`;
 	legPlayer.innerHTML = `Deu ${pAtk} de dano!`
+	
 };
+
+
