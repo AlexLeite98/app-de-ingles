@@ -29,8 +29,8 @@ const alex = {
 		Int: 2,
 		Vit: 4,
 	}
-	console.log(alex.atributos.For)
 };
+console.log(alex.atributos.For)
 
 const inimigo1 = {
 	Nome: "Lobo Corrompido",
