@@ -41,7 +41,6 @@ const inimigo1 = {
 function atkAlex(){
 	let atk = d20();
 	
-	
 	if(atk==20){
 		atk += alex.atributos.For;
 		teste.innerHTML = `Ataque Crítico${atk+d8()}`
