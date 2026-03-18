@@ -60,7 +60,7 @@ function atkInimigo1(){
 		teste.innerHTML = `${atk+d8()} Crítico`
 		
 	}else{
-		atk += alex.atributos.For;
+		atk += inimigo1.atk;
 		teste.innerHTML = atk
 	}
 }
