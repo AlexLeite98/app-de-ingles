@@ -29,12 +29,16 @@ const inimigo1 = {
 };
 
 //Aqui fica as funçõs de ataque e defesa.
-function atkAlex(){
+function atkAlex(a){
 	
-	if(d20==20){
+	if(a==20){
 		return teste.innerHTML = `Ataque Crítico${atk+d8}`
 	}else{
 		return teste.innerHTML = atk
 	}
+}
+
+function teste(){
+	atkAlex(d20)
 }
 
