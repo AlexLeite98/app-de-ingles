@@ -46,11 +46,14 @@ player.innerHTML = player1.Nome;
 
 
 function ataque(){
-	inimigo1.Hp -= d20();
-	player1.Hp -=  d12();
+	let pAtk = d20();
+	let iAtk = d12();
+	
+	inimigo1.Hp -= pAtk;
+	player1.Hp -=  iAtk;
 	
 	hpInimigo.innerHTML = inimigo1.Hp;
 	hpPlayer.innerHTML = player1.Hp;
 	
-	
+	legInimigo.innerHTML = 
 }
