@@ -38,7 +38,7 @@ const inimigo1 = {
 	Atk: 3
 };
 
-//Aqui fica as funçõs de ataque e defesa.
+//Aqui fica as funçõs de ataque.
 function atkAlex(){
 	let atk = d20();
 	
