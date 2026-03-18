@@ -1,4 +1,5 @@
 let teste = document.getElementById("teste");
+let teste2 = document.getElementById("teste2");
 
 // Aqui fica as funções de dados que serão reutilizadas com frequencia.
 function d20(){
@@ -57,10 +58,10 @@ function atkInimigo1(){
 	
 	if(atk==6){
 		atk += inimigo1.atk;
-		teste.innerHTML = `${atk+d8()} Crítico`
+		teste2.innerHTML = `${atk+d8()} Crítico`
 		
 	}else{
 		atk += inimigo1.atk;
-		teste.innerHTML = atk
+		teste2.innerHTML = atk
 	}
 }
