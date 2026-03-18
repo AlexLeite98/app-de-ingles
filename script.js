@@ -43,7 +43,7 @@ function atkAlex(){
 	
 	if(atk==20){
 		atk += alex.atributos.For;
-		teste.innerHTML = `Ataque Crítico${atk+d8()}`
+		teste.innerHTML = `${atk+d8()} Crítico`
 		
 	}else{
 		atk += alex.atributos.For;
