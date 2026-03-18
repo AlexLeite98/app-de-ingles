@@ -1,5 +1,5 @@
-let teste = document.getElementById("teste");
-let teste2 = document.getElementById("teste2");
+let hpInimigo = document.getElementById("hpInimigo");
+let inimigo = document.getElementById("inimigo");
 
 // Aqui fica as funções de dados que serão reutilizadas com frequencia.
 function d20(){
@@ -38,6 +38,11 @@ const inimigo1 = {
 	Def: 10,
 	Atk: 3
 };
+
+//Iniciar a batalha
+function iniciar(){
+	
+}
 
 //Aqui fica as funçõs de ataque.
 function atkAlex(){
