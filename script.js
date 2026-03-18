@@ -31,6 +31,20 @@ const player1 = {
 	Def: 10
 }
 
+const player2 = {
+	Nome: "Meri",
+	Hp: 24,
+	Atk: 4,
+	Def: 5
+}
+
+const player3 = {
+	Nome: "Selene",
+	Hp: 20,
+	Atk: 3,
+	Def: 5
+}
+
 const inimigo1 = {
 	Nome: "Troll",
 	Hp: 30,
