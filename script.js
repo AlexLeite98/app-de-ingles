@@ -53,10 +53,10 @@ function atkAlex(){
 }
 
 function atkInimigo1(){
-	let atk = d20();
+	let atk = d6();
 	
-	if(atk==20){
-		atk += alex.atributos.For;
+	if(atk==6){
+		atk += inimigo1.atk;
 		teste.innerHTML = `${atk+d8()} Crítico`
 		
 	}else{
