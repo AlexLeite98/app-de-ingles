@@ -20,63 +20,10 @@ function d4(){
 	return Math.floor(Math.random()*(4-1 + 1)+1);
 }
 
-// Aqui ficará os dados dos personagens.
-const alex = {
+const player1 = {
 	Nome: "Alex",
 	Hp: 30,
-	Def: 13,
-	
-	atributos: {
-		For: 5,
-		Agi: 3,
-		Int: 2,
-		Vit: 4,
-	}
-};
-
-const inimigo1 = {
-	Nome: "Lobo Corrompido",
-	Hp: 30,
-	Def: 10,
-	Atk: 3
-};
-
-//Iniciar a batalha
-function iniciar(){
-	hpInimigo.innerHTML = `HP: ${inimigo1.Hp}`;
-	inimigo.innerHTML = `${inimigo1.Nome}`;
-	
-	hpPlayer.innerHTML = `HP: ${alex.Hp}`;
-	player.innerHTML = `${(alex.Nome)}`;
+	Atk: 5,
+	Def: 10
 }
-
-//Aqui fica as funçõs de ataque.
-function atkAlex(){
-	let atk = d20();
-	
-	if(atk==20){
-		atk += alex.atributos.For;
-		atk += d8();
-		player.innerHTML = `${alex.Nome}: Acertou um crítico Crítico ${atk}`;
-		
-	}else{
-		atk += alex.atributos.For;
-		player.innerHTML = `${alex.Nome}: Acertou um crítico Crítico ${atk}`;
-	}
-	inimigo1.Hp -= atk;
-}
-
-function atkInimigo1(a){
-	let atk = d6();
-	
-	if(atk==6){
-		atk += inimigo1.Atk;
-		teste2.innerHTML = `${atk+d8()} Crítico`
-		
-	}else{
-		atk += inimigo1.Atk;
-		teste2.innerHTML = atk
-	}
-}
-
 
