@@ -51,7 +51,7 @@ function iniciar(){
 }
 
 //Aqui fica as funçõs de ataque.
-function atkAlex(){
+function atkAlex(a){
 	let atk = d20();
 	
 	if(atk==20){
@@ -64,7 +64,7 @@ function atkAlex(){
 	}
 }
 
-function atkInimigo1(){
+function atkInimigo1(a){
 	let atk = d6();
 	
 	if(atk==6){
