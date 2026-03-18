@@ -62,6 +62,7 @@ function atkAlex(a){
 		atk += alex.atributos.For;
 		teste.innerHTML = atk;
 	}
+	a -= atk;
 }
 
 function atkInimigo1(a){
