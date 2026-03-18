@@ -30,7 +30,6 @@ const alex = {
 		Vit: 4,
 	}
 };
-console.log(alex.atributos.For)
 
 const inimigo1 = {
 	Nome: "Lobo Corrompido",
