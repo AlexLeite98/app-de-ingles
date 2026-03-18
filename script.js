@@ -1,6 +1,8 @@
 // Aqui fica as funções que serão reutilizadas com frequencia.
 const d20 = Math.floor(Math.random()*(20-1 + 1)+1);
 
+console.log(d20);
+
 
 // Aqui ficará os dados dos personagens.
 const personagem1 = {
