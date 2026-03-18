@@ -1,3 +1,5 @@
+let teste = document.getElementById("teste")
+
 // Aqui fica as funções de dados que serão reutilizadas com frequencia.
 const d20 = Math.floor(Math.random()*(20-1 + 1)+1);
 const d12 = Math.floor(Math.random()*(12-1 + 1)+1);
