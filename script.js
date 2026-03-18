@@ -4,10 +4,18 @@ let teste = document.getElementById("teste");
 function d20(){
 	return Math.floor(Math.random()*(20-1 + 1)+1);
 };
-const d12 = Math.floor(Math.random()*(12-1 + 1)+1);
-const d8 = Math.floor(Math.random()*(8-1 + 1)+1);
-const d6 = Math.floor(Math.random()*(6-1 + 1)+1);
-const d4 = Math.floor(Math.random()*(4-1 + 1)+1);
+function d12(){
+	return Math.floor(Math.random()*(12-1 + 1)+1);
+};
+function d8(){
+	return Math.floor(Math.random()*(8-1 + 1)+1);
+}
+function d6(){
+	return Math.floor(Math.random()*(6-1 + 1)+1);
+}
+function d4(){
+	return Math.floor(Math.random()*(4-1 + 1)+1);
+}
 
 // Aqui ficará os dados dos personagens.
 const alex = {
