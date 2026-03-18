@@ -51,7 +51,7 @@ function iniciar(){
 }
 
 //Aqui fica as funçõs de ataque.
-function atkAlex(a){
+function atkAlex(){
 	let atk = d20();
 	
 	if(atk==20){
@@ -63,7 +63,7 @@ function atkAlex(a){
 		atk += alex.atributos.For;
 		player.innerHTML = `${alex.Nome}: Acertou um crítico Crítico ${atk}`;
 	}
-	a -= atk;
+	inimigo1.Hp -= atk;
 }
 
 function atkInimigo1(a){
