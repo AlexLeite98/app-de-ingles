@@ -47,7 +47,7 @@ function iniciar(){
 	inimigo.innerHTML = inimigo1.Nome;
 	
 	hpPlayer.innerHTML = alex.Hp;
-	hpPlayer.innerHTML = alex.Nome;
+	player.innerHTML = alex.Nome;
 }
 
 //Aqui fica as funçõs de ataque.
