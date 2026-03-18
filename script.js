@@ -31,7 +31,7 @@ function atkAlex(){
 	let atk = d20;
 	
 	if(atk==20){
-		return atk+d8
+		return `Ataque Crítico${atk+d8}`
 	}else{
 		return atk
 	}
