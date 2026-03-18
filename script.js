@@ -27,3 +27,11 @@ const player1 = {
 	Def: 10
 }
 
+const inimigo1 = {
+	Nome: "Troll",
+	Hp: 30,
+	Atk: 3,
+	Def: 12
+}
+
+
